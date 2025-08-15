@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large model files (optional - if models are too big)
+# PhD_research_models/
+# *.keras
+# *.h5
+# *.pickle
+
+# Logs
+*.log

@@ -1,0 +1,20 @@
+{
+  "model_name": "SQL_Injection_Prevention_Model",
+  "model_type": "hybrid_cnn_bilstm",
+  "purpose": "suggest_secure_practices",
+  "max_len": 200,
+  "vocab_size": 27952,
+  "classes": [
+    "0",
+    "1"
+  ],
+  "prevention_techniques": [
+    "Prepared Statements",
+    "Stored Procedures",
+    "Input Validation",
+    "Limiting Privileges",
+    "Encrypting Data"
+  ],
+  "version": "1.0.0",
+  "training_date": "2025-08-12"
+}

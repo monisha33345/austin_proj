@@ -1,0 +1,19 @@
+{
+  "model_name": "SQL_Injection_Detection_Model",
+  "model_type": "systematic_cnn_bilstm",
+  "purpose": "detect_malicious_sql",
+  "max_words": 10000,
+  "max_len": 100,
+  "best_threshold": 0.1128869578242302,
+  "classes": [
+    "Normal",
+    "SQLi"
+  ],
+  "version": "1.0.0",
+  "training_date": "2024",
+  "performance_metrics": {
+    "expected_accuracy": "> 95%",
+    "expected_precision": "> 93%",
+    "expected_recall": "> 92%"
+  }
+}
